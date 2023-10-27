@@ -1,1 +1,1 @@
-sudo docker run -it --network host  autocannon /bin/sh
+sudo docker run -it --network host -v /home/jwilson/test:/testsource autocannon /bin/sh
